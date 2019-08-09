@@ -26,7 +26,7 @@ import java.io.IOException;
 /**
  * Ptsv2paymentsPaymentInformationTokenizedCard
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2019-06-07T16:51:14.356+05:30")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2019-08-09T15:30:56.583+05:30")
 public class Ptsv2paymentsPaymentInformationTokenizedCard {
   @SerializedName("number")
   private String number = null;
@@ -226,10 +226,10 @@ public class Ptsv2paymentsPaymentInformationTokenizedCard {
   }
 
    /**
-   * Card Verification Number (CVN).  #### Ingenico ePayments Do not include this field when **commerceIndicator**&#x60;&#x3D;recurring&#x60;. **Note** Ingenico ePayments was previously called _Global Collect_.  For details, see &#x60;customer_cc_cv_number&#x60; field description in [Credit Card Services Using the SCMP API.](https://apps.cybersource.com/library/documentation/dev_guides/CC_Svcs_SCMP_API/html/wwhelp/wwhimpl/js/html/wwhelp.htm) 
+   * Card Verification Number (CVN).  #### Ingenico ePayments Do not include this field when **commerceIndicator&#x3D;recurring**. **Note** Ingenico ePayments was previously called _Global Collect_.  For details, see &#x60;customer_cc_cv_number&#x60; field description in [Credit Card Services Using the SCMP API.](https://apps.cybersource.com/library/documentation/dev_guides/CC_Svcs_SCMP_API/html/wwhelp/wwhimpl/js/html/wwhelp.htm) 
    * @return securityCode
   **/
-  @ApiModelProperty(value = "Card Verification Number (CVN).  #### Ingenico ePayments Do not include this field when **commerceIndicator**`=recurring`. **Note** Ingenico ePayments was previously called _Global Collect_.  For details, see `customer_cc_cv_number` field description in [Credit Card Services Using the SCMP API.](https://apps.cybersource.com/library/documentation/dev_guides/CC_Svcs_SCMP_API/html/wwhelp/wwhimpl/js/html/wwhelp.htm) ")
+  @ApiModelProperty(value = "Card Verification Number (CVN).  #### Ingenico ePayments Do not include this field when **commerceIndicator=recurring**. **Note** Ingenico ePayments was previously called _Global Collect_.  For details, see `customer_cc_cv_number` field description in [Credit Card Services Using the SCMP API.](https://apps.cybersource.com/library/documentation/dev_guides/CC_Svcs_SCMP_API/html/wwhelp/wwhimpl/js/html/wwhelp.htm) ")
   public String getSecurityCode() {
     return securityCode;
   }

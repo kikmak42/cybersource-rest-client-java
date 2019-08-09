@@ -31,7 +31,7 @@ import java.io.IOException;
 /**
  * TssV2TransactionsGet200ResponseProcessorInformation
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2019-06-07T16:51:14.356+05:30")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2019-08-09T15:30:56.583+05:30")
 public class TssV2TransactionsGet200ResponseProcessorInformation {
   @SerializedName("processor")
   private TssV2TransactionsGet200ResponseProcessorInformationProcessor processor = null;
@@ -132,10 +132,10 @@ public class TssV2TransactionsGet200ResponseProcessorInformation {
   }
 
    /**
-   * The description for this field is not available.
+   * Response ID sent from the processor. 
    * @return responseId
   **/
-  @ApiModelProperty(value = "The description for this field is not available.")
+  @ApiModelProperty(value = "Response ID sent from the processor. ")
   public String getResponseId() {
     return responseId;
   }

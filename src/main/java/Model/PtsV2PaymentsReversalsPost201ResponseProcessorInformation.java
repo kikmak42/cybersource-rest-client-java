@@ -26,7 +26,7 @@ import java.io.IOException;
 /**
  * PtsV2PaymentsReversalsPost201ResponseProcessorInformation
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2019-06-07T16:51:14.356+05:30")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2019-08-09T15:30:56.583+05:30")
 public class PtsV2PaymentsReversalsPost201ResponseProcessorInformation {
   @SerializedName("transactionId")
   private String transactionId = null;
@@ -106,10 +106,10 @@ public class PtsV2PaymentsReversalsPost201ResponseProcessorInformation {
   }
 
    /**
-   * Name of the Japanese acquirer that processed the transaction. Returned only for CCS (CAFIS) and JCN Gateway. Please contact the CyberSource Japan Support Group for more information. 
+   * Name of the Japanese acquirer that processed the transaction. Returned only for JCN Gateway. Please contact the CyberSource Japan Support Group for more information. 
    * @return forwardedAcquirerCode
   **/
-  @ApiModelProperty(value = "Name of the Japanese acquirer that processed the transaction. Returned only for CCS (CAFIS) and JCN Gateway. Please contact the CyberSource Japan Support Group for more information. ")
+  @ApiModelProperty(value = "Name of the Japanese acquirer that processed the transaction. Returned only for JCN Gateway. Please contact the CyberSource Japan Support Group for more information. ")
   public String getForwardedAcquirerCode() {
     return forwardedAcquirerCode;
   }
